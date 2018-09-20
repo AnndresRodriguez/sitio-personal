@@ -1,0 +1,226 @@
+.flexible{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.section--title{
+
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 4rem;
+
+}
+
+.section__article--title{
+
+    font-size: 3rem;
+    margin-top: 2rem;
+
+}
+
+.seccion-informacion{ order: 1; }
+.seccion-tecnologias{ order: 3; }
+.seccion-estudios{ order: 2; }
+.footer {order: 4;}
+
+
+/*-------------------------NAV-BAR FIXED TOP---------------------------------------*/
+
+.navbar-inverse{ background-color: black; margin-bottom: 0; font-size: 1.3em;}
+.navbar-informacion__item:hover{ box-shadow: 0 .15em 0 white; }
+
+
+/*-------------------------HEADER---------------------------------------*/
+
+.header__imagen{
+
+    height: 100%; background: url(../img-min/imagen-fondo-7-min.jpg);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.header__imagen-perfilUser{
+
+    width: 30rem;
+    height: 30rem;
+    border: .5em solid white;
+    margin-top: 3rem;
+    
+}
+
+.header__descripcion{ align-items: center; }
+.header__informacion--nombre{ font-size: 4.5rem; }
+.header__informacion--descripcion{ font-size: 2.5rem; }
+
+.container-glyphicon{
+
+    width: 30px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.btn-abajo{ 
+    
+    position: relative;
+    font-size: 3em;
+    animation: animate-icon 1s infinite;
+
+ }
+
+ @keyframes animate-icon{
+
+    0%{ padding-top: 0;}
+    50%{ padding-top: .3em; }
+    100%{ padding-top: 0; }
+}
+
+
+/*-------------------------SECCIÓN INFORMACIÓN---------------------------------------*/
+
+.section__article--content{ font-size: 1.5rem; }
+
+
+.seccion-informacion{
+
+    height: 40rem;
+    background: url(../img-min/bogota320-min.jpg);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+
+/*-------------------------SECCIÓN TECNOLOGÍAS---------------------------------------*/
+
+.container-tecnologias { flex-direction: row; justify-content: space-around; align-content: space-around; margin-bottom: 2rem; }
+
+.container-skills{ flex-direction: row; margin-top: 3em; margin-bottom: 2em; justify-content: space-around; }
+
+.container-skill{ flex-direction: column; margin-left:3rem; margin-right:3rem; align-items: center;}
+
+.container-imagen-nombre{ flex-direction: row; align-items: center; justify-content: center; margin-top: 1rem;}
+
+.imagen--nombre { font-size: 2rem; margin-top: 0}
+
+.name-php, .name-bootstrap, .name-github, .name-git{
+
+    margin-left: .6rem;
+
+} 
+
+.sub-text{  margin-top: .3em; margin-bottom: 0 }
+
+
+/*-------------------------SECCION ESTUDIOS---------------------------------------*/
+
+.seccion-estudios{
+
+    background: url(../img-min/img-estudios-4-min.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+.seccion-estudios__items{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 2em;
+}
+
+.seccion-estudios__item{
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title-estudios{ margin-top: 2em; }
+
+
+.img-seccion-estudios{
+
+    width: 30rem;
+    height: 30rem;
+    border: solid .5rem white;
+
+
+}
+
+.links-estudios, .links-estudios:hover, .links-estudios:visited {
+
+ color: white;
+
+}
+
+
+/*-------------------------FOOTER---------------------------------------*/
+
+
+.footer{ background-color: black; color: white;}
+
+.footer__redes-sociales{
+
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
+
+.footer__item{
+
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.footer__item:hover{ transform: scale(2); }
+.footer__item--link{ padding-top: 1em; }
+.footer--name{ text-align: center; }
+.title-redes{ margin-top: 1em; }
+
+
+/*-------------------------MODAL---------------------------------------*/
+
+.button-admin{
+
+    background: black;
+    width: 2%;
+    text-decoration: none;
+    text-align: center;
+    margin-right: .5rem;
+
+}
+
+.formulario-panel{ justify-content: center; align-items: center;}
+
+.modal-content{
+
+    width: 28rem;
+    margin-right: 0;
+    margin-left: 0;
+    margin: auto;
+}
+
+.modal-header{ text-align: center;}
+
+.formulario-panel__container{ margin-bottom: 2rem;}
+
+.label-panel{ font-size: 1.3rem;}
+
+

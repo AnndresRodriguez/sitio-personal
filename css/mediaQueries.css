@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Boogaloo|Gentium+Basic|Lato|Quando|Scada');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Lora|Merriweather');
+
+
+@media screen and (min-width: 1500px) {
+
+    .header__imagen, .seccion-informacion, .seccion-estudios{
+
+    background-size: 100%;
+
+}
+    
+}
+
+
+@media screen and (max-width : 1440px){
+
+.navbar-informacion__item:hover{ box-shadow: 0 .15em 0 white; }
+.navbar-inverse{ font-size: 1.5rem;}
+
+}
+
+@media screen and (max-width : 1024px) {
+
+.header__imagen-perfilUser{ width: 30rem; height: 30rem; }
+
+
+}
+
+
+@media screen and (max-width : 768px) {
+
+.header__imagen-perfilUser, .img-seccion-estudios{ width: 25rem; height: 25rem; }
+.section__article--title{ font-size: 2.5rem; margin-top: 2rem; }
+.navbar-informacion__item:hover{ box-shadow: none; }
+.header__informacion--nombre{ font-size: 4rem; }
+.header__informacion--descripcion{ font-size: 1.8rem; }
+
+}
+
+
+@media screen and (max-width : 425px) {
+
+.header__imagen{ height: 100%; background: url(../img-min/header-425.png); }
+.seccion-informacion{ background: url(../img-min/bogota425.jpg);}
+.header__imagen-perfilUser, .img-seccion-estudios{ width: 20rem; height: 20rem; }
+.header__informacion--nombre{ font-size: 3rem; }
+.header__informacion--descripcion{ font-size: 1.6rem; }
+.section--title{ margin-top: 1rem; font-size: 3rem; }
+.title-estudios{ margin-top: 6rem; font-size: 3rem; }
+.footer__item { font-size: .7rem; }
+
+.seccion-informacion{
+  font-size: 1.4rem;
+  padding-top: 5rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width : 375px){
+
+.container-skill{ margin-left: 0; }
+
+.header__imagen-perfilUser{ margin-top: 1.5rem; }
+.header__informacion--nombre{ font-size: 3.1rem; }
+.header__informacion--descripcion{ font-size: 1.4rem; }
+.title-estudios { margin-top: 6rem; }
+.tecnologias{ margin-top: 6rem; }
+
+.seccion-informacion{
+  font-size: 1.35rem;
+  padding-top: 5rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+
+}
+
+.header__imagen-perfilUser, .img-seccion-estudios{ width: 18rem; height: 18rem; }
+
+.container-skill{
+
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+
+}
+
+@media screen and (max-width : 320px) {
+
+.header__informacion--nombre,.header__informacion--descripcion{ text-align: center;}
+.header__informacion--descripcion{ font-size: 1.4rem;  }
+.title-estudios { margin-top: 6rem; }
+.container-imagen-nombre{ flex-direction: column;}
+.imagen--nombre{ font-size: 1.4rem; }
+
+.seccion-informacion{
+  
+  font-size: 1.3rem;
+  padding-top: 5rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+
+}
+
+.header__imagen-perfilUser, .img-seccion-estudios{ width: 16rem; height: 16rem; }
+.section__article--name{ margin-top: 1rem; }
+
+}
+
+
+
+
+/*@media screen and (max-width : 1042px){ .herramientas { flex-direction: row; }}
+
+@media screen and (max-width : 626px){
+
+.img-seccion-estudios{ width: 15rem; height: 15rem; }
+.header__informacion--nombre{ font-size: 4rem; }
+.header__informacion--descripcion{ font-size: 2rem; }
+.section--title{ margin-top: 2.7rem; }
+.footer__item { font-size: .5rem; }
+
+}*/
+
+
+
+
+/*@media screen and (max-width : 605px){.footer__item { font-size: 1rem; }}
+
+@media screen and (max-width : 590px){
+
+.header__informacion--nombre{ font-size: 4rem; }
+.header__informacion--descripcion{ font-size: 2.5rem; }
+.section--title{ margin-top: 2.7rem; }       
+}
+
+@media screen and (max-width : 532px){ .herramientas { flex-direction: column; } }
+@media screen and (max-width : 348px){ .header__informacion--descripcion{ font-size: 1.4rem; }}*/
+
+
+
+
+
+
